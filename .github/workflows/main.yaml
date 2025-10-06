@@ -6,8 +6,8 @@ on:
   push:
     branches: [ main ]
     paths:
-      - "static/**"
-      - "templates/**"
+      - "app/static/**"
+      - "app/templates/**"
       - "main.py"
       - "Dockerfile"
       - "k3s/deployment.yaml"
@@ -17,8 +17,8 @@ on:
   pull_request:
     branches: [ main ]
     paths:
-      - "static/**"
-      - "templates/**"
+      - "app/static/**"
+      - "app/templates/**"
       - "main.py"
       - "Dockerfile"
       - "k3s/deployment.yaml"
